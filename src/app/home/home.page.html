@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Files list
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <!--strong>Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p-->
+    <h2>Those are the uploaded files</h2>
+    <ion-list>
+      <ion-item *ngFor="let item of donnee">
+        <h3><b>{{item.title}}</b></h3>
+        <!--div class="ion-text-center"><p><img [src]="item.content" alt=""></p></div-->
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

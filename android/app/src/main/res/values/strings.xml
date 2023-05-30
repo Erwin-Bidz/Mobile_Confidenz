@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Confidenz_Mobile</string>
+    <string name="title_activity_main">Confidenz_Mobile</string>
+    <string name="package_name">isj.confidenzmoblie.app</string>
+    <string name="custom_url_scheme">isj.confidenzmoblie.app</string>
+</resources>
